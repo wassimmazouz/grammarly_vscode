@@ -27,6 +27,18 @@ You can install the Grammarly extension manually either through the VSCode inter
     ```
 
 5. The extension will be installed, and you may need to reload VSCode for the changes to take effect.
+If the previous instructions are not sufficient, you have to ensure that the Grammarly Language Server can be initialized correctly, please follow the instructions below:
+
+1. Create the necessary directory with appropriate permissions:
+Open your terminal and run the following command:
+```bash
+sudo mkdir -p ~/.config/grammarly-languageserver/
+```
+
+2. Verify the directory creation:
+```bash
+ls -ld ~/.config/grammarly-languageserver/
+```
 
 ## Note
 
