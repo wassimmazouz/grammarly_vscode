@@ -31,10 +31,14 @@ If the previous instructions are not sufficient, you have to ensure that the Gra
 
 1. Create the necessary directory with appropriate permissions:
 Open your terminal and run the following command:
-`sudo mkdir -p /Users/ensdelyon/.config/grammarly-languageserver/`
+```bash
+sudo mkdir -p /Users/ensdelyon/.config/grammarly-languageserver/
+```
 
 2. Verify the directory creation:
-`ls -ld /Users/ensdelyon/.config/grammarly-languageserver/`
+```bash
+ls -ld /Users/ensdelyon/.config/grammarly-languageserver/
+```
 
 ## Note
 
