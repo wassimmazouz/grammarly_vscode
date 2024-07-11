@@ -32,12 +32,12 @@ If the previous instructions are not sufficient, you have to ensure that the Gra
 1. Create the necessary directory with appropriate permissions:
 Open your terminal and run the following command:
 ```bash
-sudo mkdir -p /Users/home/.config/grammarly-languageserver/
+sudo mkdir -p ~/.config/grammarly-languageserver/
 ```
 
 2. Verify the directory creation:
 ```bash
-ls -ld /Users/home/.config/grammarly-languageserver/
+ls -ld ~/.config/grammarly-languageserver/
 ```
 
 ## Note
