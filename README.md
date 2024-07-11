@@ -16,7 +16,7 @@ You can install the Grammarly extension manually either through the VSCode inter
 6. Browse to the location where you downloaded the `.vsix` file and select it.
 7. The extension will be installed, and you may need to reload VSCode for the changes to take effect.
 
-### Method 2: Install via Command Line
+### Method 2: Install via the Command Line
 
 1. Download the `.vsix` file from this repository.
 2. Open your terminal or command prompt.
@@ -29,15 +29,12 @@ You can install the Grammarly extension manually either through the VSCode inter
 5. The extension will be installed, and you may need to reload VSCode for the changes to take effect.
 If the previous instructions are not sufficient, you have to ensure that the Grammarly Language Server can be initialized correctly, please follow the instructions below:
 
-1. Create the necessary directory with appropriate permissions:
-Open your terminal and run the following command:
+Create the necessary directory with appropriate permissions.
+Open your terminal and run the following commands:
 ```bash
 sudo mkdir -p ~/.config/grammarly-languageserver/
-```
-
-2. Verify the directory creation:
-```bash
-ls -ld ~/.config/grammarly-languageserver/
+chmod -R u+w ~/.config
+sudo chmod 777 ~/.config/grammarly-languageserver/
 ```
 
 ## Note
@@ -46,8 +43,11 @@ As this is a discontinued extension, some features might not work as expected wi
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.s
 ## Acknowledgments
 
-Thanks to the original developers of the [Grammarly extension for Visual Studio Code](https://github.com/znck/grammarly).
+Thanks to the original developers of the [Grammarly extension for Visual Studio Code](https://github.com/znck/grammarly)
+
+Thanks also to [Artim436](https://github.com/Artim436) for contributing to making this extension work.
+ 
 
